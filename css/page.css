@@ -1,0 +1,32 @@
+
+.pager{
+     height: 100%;
+     width:  100%;
+     max-width: 640px;
+     margin: 0 auto;
+     overflow: hidden;
+     color:  #fff;
+     position:relative;
+ }
+.swiper-slide{
+    height: 100%;
+    width:  100%;
+    max-width:640px;
+}
+
+/* page1 style */
+.page1, .page2{position:relative;background:#fff url(../images/bg2.png) no-repeat 0 0 / 100% 100%;}
+.title{position:absolute;top:0.8rem;left: 0.645rem;z-index:3;width: 5.11rem; height: 1.28rem; background:url(../images/1_title.png) no-repeat 0 0 / 100% auto;}
+.page1 .text{position: absolute;top: 2.8rem;left: 0.66rem;width: 5.08rem;height: 1.32rem;z-index: 1;background: url(../images/1_text.png) no-repeat 0 0 / 100% auto}
+.page1 .video{position: absolute;top: 4.8rem;left: 1.035rem;width: 4.31rem;height: 2.44rem;background: url(../images/1_video.jpg) no-repeat 0 0 / 100% auto;}
+.page1 .more{position: absolute;right: 0.4rem;bottom: 2.4rem;color: #1b1b1b;font-size: 0.18rem;}
+.page1 .tips{position: absolute;left: 0.64rem; bottom: 1rem;width: 5.1rem;height: 1.12rem; background: url(../images/1_tips.png) no-repeat 0 0 / 100% auto;}
+.page1 .down-btn{position: absolute;left: 50%;bottom: 0.4rem;width: 0.46rem;height: 0.26rem;margin-left: -0.23rem;background: url(../images/1_arrow.png) no-repeat 0 0 / 100% auto;}
+
+/* page2 style */
+.page2 .title{left: 50%;margin-left: -1.575rem; width:3.15rem;height: 0.65rem; background: url(../images/2_title1.png) no-repeat 0 0 / 100% auto;}
+.page2 .text1{position: absolute;top: 1.8rem;left: 50%;margin-left: -2.525rem;width: 5.05rem;height: 2.98rem;background: url(../images/2_text11.png) no-repeat 0 0 / 100% auto;}
+.page2 .title2{position: absolute;top: 5.4rem;left: 50%;margin-left: -1.2rem; width: 2.4rem;height: 0.66rem; background: url(../images/2_title2.png) no-repeat 0 0 / 100% auto;}
+.page2 .text2{position: absolute;top: 6.35rem;left: 50%;margin-left: -2.525rem; width: 5.05rem;height: 2.03rem; background: url(../images/2_text2.png) no-repeat 0 0 / 100% auto;}
+.page2 .logo{position: absolute;bottom: 0.5rem;left: 50%;margin-left: -1.19rem; width: 2.38rem;height: 0.67rem; background: url(../images/2_logo.png) no-repeat 0 0 / 100% auto;}
+
